@@ -1,15 +1,17 @@
 {
   "store.home": { 
     "blocks": [
+      "slider-layout#home",
 /*      
       "rich-text",
       "info-card#button-main",
       "info-card#button-right",// HACEMOS ACA LA DECLARACION DEL BLOQUE EN EL ORDEN QUE QUEREMOS MOSTRALO
       "info-card#button-left",*/
       "flex-layout.row",
-      "info-card#rethink",
+//      "info-card#rethink",
 //      "rich-text#deletar",
       "flex-layout.col"
+      
       
     ]
   },
