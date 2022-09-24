@@ -1,30 +1,63 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "info-card#button-main",
+      "info-card#button-right",// HACEMOS ACA LA DECLARACION DEL BLOQUE EN EL ORDEN QUE QUEREMOS MOSTRALO
+      "info-card#button-left"
     ]
   },
   "rich-text": { 
     "props": { 
-      "text": "HOLA MUNDO",
+      "text": "HOLA MUNDO ALL",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-3"
     }
   },
-  // TARJETA DE INFORMACION---INFOCARD
+  //INFO-CARD#MAIN
 
-  "info-card": {
+  "info-card#button-main": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://facescr.vteximg.com.br/arquivos/ids/171046/matrix-header-pc-1900x850.jpg?v=637779394312370000",
+    "headline": "",
+    "subhead": "",
+    "callToActionMode": "link",
+    "callToActionText": "PLAY",
+    "textAlignment": "CENTER"
+    }
+  },
+
+  // TARJETA DE INFORMACION---INFOCARD RIGHT
+
+  "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
-      "imageUrl": "https://facescr.vteximg.com.br/arquivos/ids/171046/matrix-header-pc-1900x850.jpg?v=637779394312370000",
+      "imageUrl": "https://facescr.vteximg.com.br/arquivos/ids/171049/banner-square-615x615-02.jpg?v=637779506347470000",
       "headline": "Vintage Pink",
       "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
       "callToActionMode": "button",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
+    }
+  },
+
+  //TARJETA IZQUIERDA INFO-CARD#BUTTON-LEFT
+
+  "info-card#button-left": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://facescr.vteximg.com.br/arquivos/ids/171048/banner-square-615x615-01.jpg?v=637779505165430000",
+    "headline": "Shining chrome",
+    "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+    "callToActionMode": "link",
+    "callToActionText": "Go to collection",
+    "textAlignment": "center"
     }
   }
 }

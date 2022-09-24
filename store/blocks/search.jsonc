@@ -1,7 +1,27 @@
 {
   "store.search": {
     "blocks": [
+      "search-result-layout"
       
+    ]
+  },
+  "search-result-layout":{
+    "blocks":[
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop":{
+    "children":[
+      "breadcrumb.search",//MIGAS
+      "search-title.v2",
+      "total-products.v2",//TOTAL DE PROD, ENCONTRADOS
+      "order-by.v2",//PEDIDO DE PROD
+      "search-fetch-previous",
+      "search-content",// RESULTADOS DE BUSQUEDA
+      "filter-navigator.v3",
+      "search-fetch-more"//BOTON MOSTRAR MAS RESULTADOS
     ]
   }
 }
